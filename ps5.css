@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#mainps5{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+
+}
+.deadimg {
+    width: 100px;
+    height: 100px;
+}
+.deadimg img{
+    width: 100%;
+    height: 100px;
+}
+.headsection ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.headsection a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 2px 20px black;
+    padding: 0 20px;
+}
+.navflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.bag h1 {
+    font-size: 2.3rem;
+    padding-bottom: 8px;
+}
+.bag p{
+    color: #000000b3;
+    margin-bottom: 20px;
+}
+.bag a{
+    color: white;
+    background-color: #ff7300;
+    text-decoration: none;
+    padding: 12px 23px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+.bagflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4rem;
+}
+.designps5{
+    width: 100px;
+    
+    border-top: 100px solid black;
+    border-right: 100px solid black;
+    border-bottom: 100px solid black;
+    border-left: 100px solid black;
+    border-radius: 90% 50px 0 90%;
+    background-color: #ff7300;
+    
+}
+.blogimg {
+    width: 449px;
+    height: 400px;
+    position: absolute;
+    top: 24rem;
+    z-index: 1;
+}
+.blogimg img {
+    width: 100%;
+    height: 100%;
+}
+.blob {
+        width: 80%;
+        position: absolute;
+        top: -17rem;
+        right: -29rem;
+}
+.headsection {
+    z-index: 1;
+}
+.blog svg {
+    width: 100%;
+    height: 100%;
+}
+.bag {
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
+
+}
+.bags_flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 8rem;
+    margin-left: 11rem;
+    position: absolute;
+    top: 25rem;
+}
+.bags{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    background-color: #ff7300;
+    border-radius: 4px;
+    padding: 12px 15px ;
+    margin-left: 20px;
+    box-shadow: 4px 4px 8px #0000009e;
+    z-index: 1;
+}
+.bags::after{
+    content: "";
+    background-color: rgb(253 227 204);
+    height: 50px;
+    width: 85px;
+    border-radius: 0 4px 4px 55px;
+    position: absolute;
+    top: 0;
+    left: 11.6rem;
+}
+.second::after{
+    
+    position: absolute;
+    top: 0rem;
+    left: 28.5rem;
+}
+.third::after{
+    position: absolute;
+    top: 0rem;
+    left: 45.29rem;
+}
